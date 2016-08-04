@@ -313,9 +313,12 @@ public class ItDashPrjDataGetter implements RequestHandler<Object, Object> {
     
     
     /**
-     * Updates the item in the DynamoDB table called SotipConfig.  The items holds metadata for the 
-     * data pull from IT Dashboard.
+     * Updates the item in the DynamoDB table called SotipConfig.  The current date is set as the date for
+     * the last successful for IT Dashboard.  The number of files is also stored.
      * 
+     * Updating the item will trigger another Lambda function to begin processing the files that this
+     * Lambda function created.
+     *  
      * @param updDateStr
      * 			the date of the data pull
      * 
@@ -341,4 +344,5 @@ public class ItDashPrjDataGetter implements RequestHandler<Object, Object> {
 				expressionAttributeNames, 
 				expressionAttributeValues);
     }
+
 }

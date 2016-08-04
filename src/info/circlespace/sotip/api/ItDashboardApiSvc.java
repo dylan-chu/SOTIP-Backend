@@ -11,7 +11,6 @@ package info.circlespace.sotip.api;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
-
 /**
  * Defines the interfaces used by Retrofit to make the API calls.
  */

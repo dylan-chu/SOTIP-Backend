@@ -13,7 +13,7 @@ package info.circlespace.sotip.api;
  */
 public class ProjectInfo {
 
-    // the variable names correspond exactly to the field names returned by the API
+    // the following variable names correspond exactly to the field names returned by the API
     private String uniqueInvestmentIdentifier;
     private int businessCaseID;
     private String agencyCode;
@@ -44,245 +44,227 @@ public class ProjectInfo {
 
 
     public String getUniqueInvestmentIdentifier() {
-        return this.uniqueInvestmentIdentifier;
+        return uniqueInvestmentIdentifier;
     }
 
     public void setUniqueInvestmentIdentifier( String id ) {
-        this.uniqueInvestmentIdentifier = id;
+        uniqueInvestmentIdentifier = id;
     }
 
     
     public int getBusinessCaseID() {
-        return this.businessCaseID;
+        return businessCaseID;
     }
 
     public void setBusinessCaseID( int id ) {
-        this.businessCaseID = id;
+        businessCaseID = id;
     }
 
     
     public String getAgencyCode() {
-        return this.agencyCode;
+        return agencyCode;
     }
 
     public void setAgencyCode( String code ) {
-        this.agencyCode = code;
+        agencyCode = code;
     }
 
     
     public String getAgencyName() {
-        return this.agencyName;
+        return agencyName;
     }
 
     public void setAgencyName( String name ) {
-        this.agencyName = name;
+        agencyName = name;
     }
 
     
     public String getInvestmentTitle() {
-        return this.investmentTitle;
+        return investmentTitle;
     }
 
     public void setInvestmentTitle( String title ) {
-        this.investmentTitle = title;
+        investmentTitle = title;
     }
 
     
     public void setUniqueProjectID( String id ) {
-        this.uniqueProjectID = id;
+        uniqueProjectID = id;
     }
 
     public String getUniqueProjectID() {
-        return this.uniqueProjectID;
+        return uniqueProjectID;
     }
 
     
     public int getProjectID() {
-        return this.projectID;
+        return projectID;
     }
 
     public void setProjectID( int id ) {
-        this.projectID = id;
+        projectID = id;
     }
 
     
     public String getAgencyProjectID() {
-        return this.agencyProjectID;
+        return agencyProjectID;
     }
 
     public void setAgencyProjectID( String id ) {
-        this.agencyProjectID = id;
+        agencyProjectID = id;
     }
 
     
     public String getProjectName() {
-        return this.projectName;
+        return projectName;
     }
 
     public void setProjectName( String name ) {
-        this.projectName = name;
+        projectName = name;
     }
 
     
     public String getObjectivesExpectedOutcomes() {
-        return this.objectivesExpectedOutcomes;
+        return objectivesExpectedOutcomes;
     }
 
     public void setObjectivesExpectedOutcomes( String outcomes ) {
-        this.objectivesExpectedOutcomes = outcomes;
+        objectivesExpectedOutcomes = outcomes;
     }
 
     
     public String getStartDate() {
-        return this.startDate;
+        return startDate;
     }
 
     public void setStartDate( String date ) {
-        this.startDate = date;
+        startDate = date;
     }
 
     
     public String getCompletionDate() {
-        return this.completionDate;
+        return completionDate;
     }
 
     public void setCompletionDate( String date ) {
-        this.completionDate = date;
+        completionDate = date;
     }
 
     
     public double getProjectLifeCycleCost() {
-        return this.projectLifeCycleCost;
+        return projectLifeCycleCost;
     }
 
     public void setProjectLifeCycleCost( double cost ) {
-        this.projectLifeCycleCost = cost;
+        projectLifeCycleCost = cost;
     }
 
     
     public String getSDLCMethodology() {
-        return this.SDLCMethodology;
+        return SDLCMethodology;
     }
 
     public void setSDLCMethodology( String methodology ) {
-        this.SDLCMethodology = methodology;
+        SDLCMethodology = methodology;
     }
 
     
     public String getOtherSDLC() {
-        return this.otherSDLC;
+        return otherSDLC;
     }
 
     public void setOtherSDLC( String methodology ) {
-        this.otherSDLC = methodology;
-    }
-
-    
-    public String getReleaseEverySixMo() {
-        return this.releaseEverySixMo;
-    }
-
-    public void setReleaseEverySixMo( String flag ) {
-        this.releaseEverySixMo = flag;
-    }
-
-    
-    public String getReleaseEverySixMoComment() {
-        return this.releaseEverySixMoComment;
-    }
-
-    public void setReleaseEverySixMoComment( String comment ) {
-        this.releaseEverySixMoComment = comment;
+        otherSDLC = methodology;
     }
 
     
     public String getPmExperienceLevel() {
-        return this.pmExperienceLevel;
+        return pmExperienceLevel;
     }
 
     public void setPmExperienceLevel( String level ) {
-        this.pmExperienceLevel = level;
+        pmExperienceLevel = level;
     }
 
     
     public int getScheduleVarianceInDays() {
-        return  this.scheduleVarianceInDays;
+        return  scheduleVarianceInDays;
     }
 
     public void setScheduleVarianceInDays( int days ) {
-        this.scheduleVarianceInDays = days;
+        scheduleVarianceInDays = days;
     }
 
     
     public double getScheduleVariancePercent() {
-        return this.scheduleVariancePercent;
+        return scheduleVariancePercent;
     }
 
     public void setScheduleVariancePercent( double percent ) {
-        this.scheduleVariancePercent = percent;
+        scheduleVariancePercent = percent;
     }
 
     
     public String getScheduleColor() {
-        return this.scheduleColor;
+        return scheduleColor;
     }
 
     public void setScheduleColor( String colour ) {
-        this.scheduleColor = colour;
+        scheduleColor = colour;
     }
 
     
     public double getCostVarianceDollars() {
-        return this.costVarianceDollars;
+        return costVarianceDollars;
     }
 
     public void setCostVarianceDollars( double amount ) {
-        this.costVarianceDollars = amount;
+        costVarianceDollars = amount;
     }
 
     
     public double getCostVariancePercent() {
-        return this.costVariancePercent;
+        return costVariancePercent;
     }
 
     public void setCostVariancePercent( double percent ) {
-        this.costVariancePercent = percent;
+        costVariancePercent = percent;
     }
 
     
     public String getCostColor() {
-        return this.costColor;
+        return costColor;
     }
 
     public void setCostColor( String colour ) {
-        this.costColor = colour;
+        costColor = colour;
     }
 
     
     public String getProjectStatus() {
-        return this.projectStatus;
+        return projectStatus;
     }
 
     public void setProjectStatus( String status ) {
-        this.projectStatus = status;
+        projectStatus = status;
     }
 
     
     public String getUpdatedDate() {
-        return this.updatedDate;
+        return updatedDate;
     }
 
     public void setUpdatedDate( String date ) {
-        this.updatedDate = date;
+        updatedDate = date;
     }
 
     
     public String getUpdatedTime() {
-        return this.updatedTime;
+        return updatedTime;
     }
 
     public void setUpdatedTime( String time ) {
-        this.updatedTime = time;
+        updatedTime = time;
     }
     
 }
